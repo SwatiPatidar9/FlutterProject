@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:runtime_permission/simmer_effect.dart';
 
 import 'home_page.dart';
 
@@ -18,7 +19,8 @@ class MyApp extends StatelessWidget {
 
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: CameraPage(),
+      //home: CameraPage(),
+      home:ShimmerToDataExample(),
     );
   }
 }
