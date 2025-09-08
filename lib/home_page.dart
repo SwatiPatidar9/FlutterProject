@@ -39,6 +39,7 @@ class CameraPage extends StatelessWidget {
               child: const Text("Open Gallery"),
               onPressed: () => _openGallery(context),
             ),
+            Text("Runtime Permission")
           ],
         ),
       ),
