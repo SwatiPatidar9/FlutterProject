@@ -4,7 +4,6 @@ class LazyLoadingWithScroll extends StatefulWidget {
   @override
   _LazyLoadingWithScrollState createState() => _LazyLoadingWithScrollState();
 }
-
 class _LazyLoadingWithScrollState extends State<LazyLoadingWithScroll> {
   final ScrollController _scrollController = ScrollController();
   List<int> items = [];
